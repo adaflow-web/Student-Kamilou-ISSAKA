@@ -1,4 +1,8 @@
 # Setup
+import random
+answer = random.randint(1, 101)
+user_wins = False
+attempts = 0
 
 #Game loop
 
