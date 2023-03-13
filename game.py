@@ -3,6 +3,7 @@ import random
 answer = random.randint(1, 101)
 user_wins = False
 attempts = 0
+attempt_word = ""
 
 #Game loop
 while user_wins != True:
@@ -27,7 +28,12 @@ while user_wins != True:
             print("The secret number is smaller!")
         else:
             print("The secret number is bigger!")
-#Get the spelling of the "attempt" word 
+#Get the spelling of the "attempt" word
+if attempts == 1:
+    attempt_word = " attempt"
+else:
+    attempt_word =" attempts"
 
-# Display the result or congratulation message   
+# Display the result or congratulation message
+print("You won!!! You took " + str(attempts) + attempt_word)   
         
