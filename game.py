@@ -18,9 +18,15 @@ while user_wins != True:
             print("Error: Please a valid number is needed!")
             quit()
         #Increase attempt count
+        attempts += 1
         
         #Check  the user answer against the secret number
-        
+        if guess_number == answer:
+            user_wins = True
+        elif guess_number > answer:
+            print("The secret number is smaller!")
+        else:
+            print("The secret number is bigger!")
 #Get the spelling of the "attempt" word 
 
 # Display the result or congratulation message   
