@@ -72,11 +72,8 @@ def ask_to_continue():
     else:
         return False
     
-# def inner_fun(command, fees, country, devise):
-#     return command + fees + country + devise
-
 print(portfeescalculator())
 
 while ask_to_continue():
     print(portfeescalculator())
-    # quit()
+
