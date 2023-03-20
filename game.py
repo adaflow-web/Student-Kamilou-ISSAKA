@@ -9,7 +9,7 @@ attempt_word = ""
 while user_wins != True:
 
         #Get user input
-        guess =input("Enter a number between 1 and 100:")
+        guess = input("Enter a number between 1 and 100:")
         
         
         # Check the user input

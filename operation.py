@@ -298,3 +298,19 @@ print(add(6, 7))
 
 # for x in range(8):
 #     print("Number: " + float(x))
+
+# command = "5"
+
+# print(command)
+x = 'Emma '
+y = 'Kelly'
+
+def manipulate(x, y):
+    # concatenate two strings
+    def inner_fun(x, y):
+        return x + y
+
+    z = inner_fun(x, y)
+    return z + ' Developers'
+
+result = manipulate('Emma', 'Kelly')

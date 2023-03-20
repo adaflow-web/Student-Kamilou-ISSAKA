@@ -479,7 +479,7 @@
 # else:
 #     print("Try to adapt your dressing!")
     
-# Using and in python
+# Using AND in python
 
 # def weather_function(weather, temperature):
 #     if (weather == "raining" and temperature == "cold"):
@@ -508,7 +508,7 @@
 #     print("Both numbers are not greater than 10.")
   
   
-#   USE AND IN PLACE OF OR
+#   Use AND in place of OR
 
 # a = 8
 # b = 12
