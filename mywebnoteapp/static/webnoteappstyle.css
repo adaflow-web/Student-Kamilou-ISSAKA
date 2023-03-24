@@ -1,0 +1,310 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-decoration: blue;
+  justify-content: center;
+  box-sizing: content-box;
+  font-family: sans-serif;
+}
+/* body .navbar-brand
+{
+  margin: 15;
+  text-decoration: blue;
+  display: none;
+} */
+/* .h1{
+  margin: 15;
+  text-align: center;
+  text-decoration: blue;
+} */
+.collapse
+{
+  background: rgb(red, green, blue, alpha);
+  text-align: center;
+}
+.collapse ul{
+  display: inline-flex;
+  list-style: none;
+  color: blue;
+}
+.collapse h1{
+  display: inline-flex;
+  list-style: none;
+  color: blue;
+}
+.collapse ul li
+{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.collapse ul li a::after
+{
+  text-decoration: aqua;
+  color: blue;
+}
+.active, .collapse ul li:hover
+{
+  background: red;
+  border-radius: 5px;
+}
+.collapse .fa
+{
+  margin-right: 8px;
+}
+.sub-menu-1
+{
+  display: none;
+}
+.collapse ul li:hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background: goldenrod;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.collapse ul li:hover .sub-menu-1 ul
+{
+  display: inline-block;
+  margin: 10px;
+}
+.collapse ul li:hover .sub-menu-1 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted wheat;
+  background: turquoise;
+  border-radius: 0;
+  text-align: left;
+}
+.collapse ul li:hover .sub-menu-1 ul li:last-child
+{
+  border-bottom: transparent;
+}
+.collapse ul li:hover .sub-menu-1 ul li a:hover
+{
+  color: #7fffd4;
+}
+.sub-menu-2
+{
+  display: none;
+}
+.collapse ul li:hover .sub-menu-2
+{
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.collapse ul li:hover .sub-menu-2 ul
+{
+  display: block;
+  margin: 10px;
+}
+.collapse ul li:hover .sub-menu-2 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted wheat;
+  background: turquoise;
+  border-radius: 0;
+  text-align: left;
+}
+.collapse ul li:hover .sub-menu-2 ul li a:hover
+{
+  color: #7fffd4;
+}
+.collapse ul li .sub-menu-2 a::after
+{
+  text-decoration: aqua;
+  color: blue;
+} 
+ .collapse ul li:hover .sub-menu-2 ul li:last-child
+{
+  border-bottom: none;
+}
+/* .menu-bar */
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  background-color: aqua;
+  text-align: center;
+  text-size-adjust: 4;
+} */
+
+/* ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  background-color: rgb(red, green, blue);
+  text-align: center;
+  text-size-adjust: 3;
+}
+.ul li a {
+  display: inline-flex;
+  list-style: none;
+  color: blue;
+}
+.ul li a i
+{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}  */
+
+
+/* div.inputbutton {
+    background-color: rgb(26, 64, 105);
+    overflow: auto;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  
+  div.inputbutton a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.inputbutton a:hover {
+    background-color: rgb(105, 26, 137);
+  } */
+
+  /* h1 {
+    border: 2px #eee solid;
+    color: rgb(15, 39, 226);
+    text-align: center;
+    padding: 10px;
+} */
+
+
+/* div.iambutton {
+  background-color: rgb(3, 99, 4);
+  overflow: auto;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+div.iambutton a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.iambutton a:hover {
+  background-color: rgb(83, 3, 3);
+} */
+
+/* h1 { 
+  color: white;
+  text-align: center;
+} */
+/* élément {
+  background-color: #fff;
+}
+
+h1 {
+  border: 2px #eee solid;
+  color: rgb(15, 39, 226);
+  text-align: right;
+  padding: 10px;
+  box-sizing: content-box;
+  margin-block-end: auto;
+  justify-content: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: -3;
+  padding: 0;
+  width: 80px;
+  background-color: aqua;
+  text-align: start;
+  text-size-adjust: 4;
+}
+
+li a {
+  display: block;
+}  */
+
+/* li a {
+  display: block;
+  width: 60px;
+  justify-content: left;
+} */
+
+/* body, input {
+  font-family: sans-serif;
+  color: #000;
+  text-align: center;
+  margin: 1em;
+  padding: 0;
+  font-size: 15px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background:transparent;
+  background-color: transparent;
+}
+
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background: white;
+} */
+/* .search-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+} */
+
+/* .search-txt{
+border: none;
+background: black;
+outline: none;
+float:left;
+padding: 0;
+color: white;
+font-size: 16px;
+transition: 0.4s;
+line-height: 40px;
+width:0px   
+} */

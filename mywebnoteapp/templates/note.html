@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Note place</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+
+    {% block content %}
+        <h2>{% block note %} {{ note['note'] }} {% endblock %}</h2>
+        <span class="badge badge-primary">{{ note['created'] }}</span>
+        <p>{{ note['content'] }}</p>
+    {% endblock %}
+</body>
+</html>
